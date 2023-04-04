@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcobra.a CMakeFiles/cobra.dir/src/Networking/socket/ClientSocket.cpp.o CMakeFiles/cobra.dir/src/Networking/socket/ServerSocket.cpp.o CMakeFiles/cobra.dir/src/Networking/socket/socket.cpp.o CMakeFiles/cobra.dir/src/utils/coloredText/coloredText.cpp.o CMakeFiles/cobra.dir/src/utils/logging/logging.cpp.o
+/usr/bin/ranlib libcobra.a

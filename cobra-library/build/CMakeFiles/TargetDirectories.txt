@@ -1,0 +1,3 @@
+/home/epicman/Desktop/projects/cobra/cobra-library/build/CMakeFiles/cobra.dir
+/home/epicman/Desktop/projects/cobra/cobra-library/build/CMakeFiles/edit_cache.dir
+/home/epicman/Desktop/projects/cobra/cobra-library/build/CMakeFiles/rebuild_cache.dir
