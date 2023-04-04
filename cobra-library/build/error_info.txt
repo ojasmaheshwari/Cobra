@@ -1,0 +1,5 @@
+[  7%] Building CXX object CMakeFiles/server.dir/src/server.cpp.o
+[ 14%] Building CXX object CMakeFiles/server.dir/src/Networking/socket/socket.cpp.o
+[ 21%] Building CXX object CMakeFiles/server.dir/src/Networking/socket/ServerSocket.cpp.o
+[ 28%] Building CXX object CMakeFiles/server.dir/src/Networking/socket/ClientSocket.cpp.o
+[ 35%] Linking CXX executable server
