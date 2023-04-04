@@ -1,6 +1,6 @@
 # Build folders
-/cobra_library/build
-/app/build
+cobra_library/build
+app/build
 
 # App misc
-/app/libcobra.a /app/server /app/client /app/CMakeLists.txt
+app/libcobra.a app/server app/client app/CMakeLists.txt
