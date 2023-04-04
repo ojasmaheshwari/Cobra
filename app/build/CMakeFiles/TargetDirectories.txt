@@ -1,4 +1,0 @@
-/home/epicman/Desktop/projects/cobra/app/build/CMakeFiles/server_app.dir
-/home/epicman/Desktop/projects/cobra/app/build/CMakeFiles/client_app.dir
-/home/epicman/Desktop/projects/cobra/app/build/CMakeFiles/edit_cache.dir
-/home/epicman/Desktop/projects/cobra/app/build/CMakeFiles/rebuild_cache.dir
