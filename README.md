@@ -1,7 +1,7 @@
 # Cobra Library
 Cobra is an open source C++ library made for networking, web-servers, backend programming etc. 
 It provides high level abstraction, speed and security over the usage of complex unix/windows api for sockets and networking.
-It is currently in developement and is being written by @ojasmaheshwari.
+It is currently in developement and is being written by [@ojasmaheshwari](https://github.com/ojasmaheshwari).
 We are looking for contributors to help us in the project
 
 # Installation
