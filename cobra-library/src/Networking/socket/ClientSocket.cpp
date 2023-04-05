@@ -1,6 +1,4 @@
 #include "ClientSocket.h"
-#include <errno.h>
-#include <stdio.h>
 
 Cobra::ClientSocket::ClientSocket(int domain, int service, int protocol,
                                   int port, const char *ip)
