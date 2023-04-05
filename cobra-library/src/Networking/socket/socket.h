@@ -1,5 +1,6 @@
 #pragma once
 
+#include "../../utils/logging/logging.h"
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <unistd.h>
@@ -17,4 +18,5 @@ public:
   virtual void closeConnection() = 0;
   virtual void connectToNetwork() = 0;
 };
+inline Logger log;
 } // namespace Cobra

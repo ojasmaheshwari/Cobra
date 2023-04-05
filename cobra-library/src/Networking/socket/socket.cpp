@@ -1,5 +1,4 @@
 #include "socket.h"
-#include "../../utils/logging/logging.h"
 #include <sys/socket.h>
 
 static Logger log;
