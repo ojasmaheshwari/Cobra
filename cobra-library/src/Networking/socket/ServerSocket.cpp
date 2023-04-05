@@ -1,9 +1,6 @@
 #include "ServerSocket.h"
-#include "../../utils/logging/logging.h"
 #include <sys/socket.h>
 #include <unistd.h>
-
-static Logger log;
 
 Cobra::ServerSocket::ServerSocket(int domain, int service, int protocol,
                                   int port)

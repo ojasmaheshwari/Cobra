@@ -1,9 +1,6 @@
 #include "ClientSocket.h"
-#include "../../utils/logging/logging.h"
 #include <errno.h>
 #include <stdio.h>
-
-static Logger log;
 
 Cobra::ClientSocket::ClientSocket(int domain, int service, int protocol,
                                   int port, const char *ip)
