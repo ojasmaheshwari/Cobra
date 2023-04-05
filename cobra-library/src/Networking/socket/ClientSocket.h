@@ -12,8 +12,8 @@ private:
 
 public:
   ClientSocket(int domain, int service, int protocol, int port, const char *ip);
-  const char *readIncomingData();
-  void sendOutgoingData(const char *data);
+  const char *readData();
+  void sendData(const char *data);
   void connectToNetwork() override;
   void closeConnection() override;
 };

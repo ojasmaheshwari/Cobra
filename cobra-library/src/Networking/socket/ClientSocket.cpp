@@ -22,13 +22,13 @@ void Cobra::ClientSocket::connectToNetwork() {
     log.Info("Connected to network");
 }
 
-const char *Cobra::ClientSocket::readIncomingData() {
+const char *Cobra::ClientSocket::readData() {
   log.Info("Reading response");
   long valread = read(m_sock, m_buffer, 30000);
   return m_buffer;
 }
 
-void Cobra::ClientSocket::sendOutgoingData(const char *data) {
+void Cobra::ClientSocket::sendData(const char *data) {
   send(m_sock, data, strlen(data), 0);
   log.Info("Message sent");
 }

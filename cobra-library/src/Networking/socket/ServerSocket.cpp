@@ -31,13 +31,13 @@ void Cobra::ServerSocket::acceptConnections() {
     log.Info("Accepted connection");
 }
 
-const char *Cobra::ServerSocket::readIncomingData() {
+const char *Cobra::ServerSocket::readData() {
   log.Info("Reading response");
   long valread = read(m_current_socket, m_buffer, 30000);
   return m_buffer;
 }
 
-void Cobra::ServerSocket::sendOutgoingData(const char *data) {
+void Cobra::ServerSocket::sendData(const char *data) {
   write(m_current_socket, data, strlen(data));
   log.Info("Message sent");
 }

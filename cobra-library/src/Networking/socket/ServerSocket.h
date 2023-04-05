@@ -13,8 +13,8 @@ public:
   ServerSocket(int domain, int service, int protocol, int port);
   void listenForConnections(int maxConnections);
   void acceptConnections();
-  const char* readIncomingData();
-  void sendOutgoingData(const char* data);
+  const char* readData();
+  void sendData(const char* data);
   void connectToNetwork() override;
   void closeConnection() override;
 };
